@@ -1,0 +1,8 @@
+var a,b,c : integer;
+begin 
+a:=3; b:=a;
+if a>b then c:=a
+else begin
+c:=b; b:=1;
+end;
+end.
